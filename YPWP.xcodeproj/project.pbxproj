@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9071037B1BD07BA00042A0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071037A1BD07BA00042A0EF /* AppDelegate.swift */; };
-		9071037D1BD07BA00042A0EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071037C1BD07BA00042A0EF /* ViewController.swift */; };
 		907103801BD07BA00042A0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9071037E1BD07BA00042A0EF /* Main.storyboard */; };
 		907103821BD07BA00042A0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907103811BD07BA00042A0EF /* Assets.xcassets */; };
 		907103851BD07BA00042A0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907103831BD07BA00042A0EF /* LaunchScreen.storyboard */; };
 		907103901BD07BA00042A0EF /* YPWPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071038F1BD07BA00042A0EF /* YPWPTests.swift */; };
 		9071039B1BD07BA00042A0EF /* YPWPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071039A1BD07BA00042A0EF /* YPWPUITests.swift */; };
+		907103B21BD080340042A0EF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103B01BD080340042A0EF /* Bolts.framework */; };
+		907103B31BD080340042A0EF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103B11BD080340042A0EF /* Parse.framework */; };
+		907103B51BD080B80042A0EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103B41BD080B80042A0EF /* AudioToolbox.framework */; };
+		907103B71BD080BD0042A0EF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103B61BD080BD0042A0EF /* CFNetwork.framework */; };
+		907103B91BD080C60042A0EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103B81BD080C60042A0EF /* CoreGraphics.framework */; };
+		907103BB1BD080CD0042A0EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103BA1BD080CD0042A0EF /* CoreLocation.framework */; };
+		907103BD1BD080DC0042A0EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103BC1BD080DC0042A0EF /* QuartzCore.framework */; };
+		907103BF1BD080F10042A0EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103BE1BD080F10042A0EF /* Security.framework */; };
+		907103C11BD080FA0042A0EF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103C01BD080FA0042A0EF /* StoreKit.framework */; };
+		907103C31BD081010042A0EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103C21BD081010042A0EF /* SystemConfiguration.framework */; };
+		907103C51BD0810D0042A0EF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103C41BD0810D0042A0EF /* libz.tbd */; };
+		907103C71BD081180042A0EF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 907103C61BD081180042A0EF /* libsqlite3.tbd */; };
+		90BB02241BE1815A00A1B8CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB02231BE1815A00A1B8CE /* HomeViewController.swift */; };
+		90BB022A1BE1886200A1B8CE /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB02291BE1886200A1B8CE /* SignUpTableViewController.swift */; };
+		90BB022C1BE1A5AA00A1B8CE /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB022B1BE1A5AA00A1B8CE /* MainMenuViewController.swift */; };
+		90BB02301BE2CFFD00A1B8CE /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB022F1BE2CFFD00A1B8CE /* EditProfileTableViewController.swift */; };
+		90BB02341BE2D0FD00A1B8CE /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB02331BE2D0FD00A1B8CE /* PlayGameViewController.swift */; };
+		90BB02361BE32C9000A1B8CE /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB02351BE32C9000A1B8CE /* SettingsTableViewController.swift */; };
+		90BB023C1BE3382300A1B8CE /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BB023B1BE3382300A1B8CE /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,6 @@
 /* Begin PBXFileReference section */
 		907103771BD07BA00042A0EF /* YPWP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPWP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9071037A1BD07BA00042A0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9071037C1BD07BA00042A0EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9071037F1BD07BA00042A0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		907103811BD07BA00042A0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		907103841BD07BA00042A0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,25 @@
 		907103961BD07BA00042A0EF /* YPWPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPWPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9071039A1BD07BA00042A0EF /* YPWPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPWPUITests.swift; sourceTree = "<group>"; };
 		9071039C1BD07BA00042A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907103B01BD080340042A0EF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		907103B11BD080340042A0EF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		907103B41BD080B80042A0EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		907103B61BD080BD0042A0EF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		907103B81BD080C60042A0EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		907103BA1BD080CD0042A0EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		907103BC1BD080DC0042A0EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		907103BE1BD080F10042A0EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		907103C01BD080FA0042A0EF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		907103C21BD081010042A0EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		907103C41BD0810D0042A0EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		907103C61BD081180042A0EF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		90BB02231BE1815A00A1B8CE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		90BB02291BE1886200A1B8CE /* SignUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
+		90BB022B1BE1A5AA00A1B8CE /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		90BB022F1BE2CFFD00A1B8CE /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		90BB02331BE2D0FD00A1B8CE /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		90BB02351BE32C9000A1B8CE /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		90BB023B1BE3382300A1B8CE /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907103C71BD081180042A0EF /* libsqlite3.tbd in Frameworks */,
+				907103C51BD0810D0042A0EF /* libz.tbd in Frameworks */,
+				907103C31BD081010042A0EF /* SystemConfiguration.framework in Frameworks */,
+				907103C11BD080FA0042A0EF /* StoreKit.framework in Frameworks */,
+				907103BF1BD080F10042A0EF /* Security.framework in Frameworks */,
+				907103BD1BD080DC0042A0EF /* QuartzCore.framework in Frameworks */,
+				907103BB1BD080CD0042A0EF /* CoreLocation.framework in Frameworks */,
+				907103B91BD080C60042A0EF /* CoreGraphics.framework in Frameworks */,
+				907103B71BD080BD0042A0EF /* CFNetwork.framework in Frameworks */,
+				907103B51BD080B80042A0EF /* AudioToolbox.framework in Frameworks */,
+				907103B31BD080340042A0EF /* Parse.framework in Frameworks */,
+				907103B21BD080340042A0EF /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,11 +145,11 @@
 		907103791BD07BA00042A0EF /* YPWP */ = {
 			isa = PBXGroup;
 			children = (
-				9071037A1BD07BA00042A0EF /* AppDelegate.swift */,
-				9071037C1BD07BA00042A0EF /* ViewController.swift */,
-				9071037E1BD07BA00042A0EF /* Main.storyboard */,
+				90E3917A1BE1771000611F22 /* FRAMEWORKS */,
+				90BB02381BE32CD400A1B8CE /* STORYBOARDS */,
+				90BB02371BE32CB700A1B8CE /* VIEW CONTROLLERS */,
+				90BB023D1BE3384200A1B8CE /* SWIFT FILES */,
 				907103811BD07BA00042A0EF /* Assets.xcassets */,
-				907103831BD07BA00042A0EF /* LaunchScreen.storyboard */,
 				907103861BD07BA00042A0EF /* Info.plist */,
 			);
 			path = YPWP;
@@ -123,6 +171,56 @@
 				9071039C1BD07BA00042A0EF /* Info.plist */,
 			);
 			path = YPWPUITests;
+			sourceTree = "<group>";
+		};
+		90BB02371BE32CB700A1B8CE /* VIEW CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				90BB022F1BE2CFFD00A1B8CE /* EditProfileTableViewController.swift */,
+				90BB02231BE1815A00A1B8CE /* HomeViewController.swift */,
+				90BB022B1BE1A5AA00A1B8CE /* MainMenuViewController.swift */,
+				90BB02331BE2D0FD00A1B8CE /* PlayGameViewController.swift */,
+				90BB02351BE32C9000A1B8CE /* SettingsTableViewController.swift */,
+				90BB02291BE1886200A1B8CE /* SignUpTableViewController.swift */,
+			);
+			name = "VIEW CONTROLLERS";
+			sourceTree = "<group>";
+		};
+		90BB02381BE32CD400A1B8CE /* STORYBOARDS */ = {
+			isa = PBXGroup;
+			children = (
+				907103831BD07BA00042A0EF /* LaunchScreen.storyboard */,
+				9071037E1BD07BA00042A0EF /* Main.storyboard */,
+			);
+			name = STORYBOARDS;
+			sourceTree = "<group>";
+		};
+		90BB023D1BE3384200A1B8CE /* SWIFT FILES */ = {
+			isa = PBXGroup;
+			children = (
+				9071037A1BD07BA00042A0EF /* AppDelegate.swift */,
+				90BB023B1BE3382300A1B8CE /* Functions.swift */,
+			);
+			name = "SWIFT FILES";
+			sourceTree = "<group>";
+		};
+		90E3917A1BE1771000611F22 /* FRAMEWORKS */ = {
+			isa = PBXGroup;
+			children = (
+				907103C61BD081180042A0EF /* libsqlite3.tbd */,
+				907103C41BD0810D0042A0EF /* libz.tbd */,
+				907103C21BD081010042A0EF /* SystemConfiguration.framework */,
+				907103C01BD080FA0042A0EF /* StoreKit.framework */,
+				907103BE1BD080F10042A0EF /* Security.framework */,
+				907103BC1BD080DC0042A0EF /* QuartzCore.framework */,
+				907103BA1BD080CD0042A0EF /* CoreLocation.framework */,
+				907103B81BD080C60042A0EF /* CoreGraphics.framework */,
+				907103B61BD080BD0042A0EF /* CFNetwork.framework */,
+				907103B41BD080B80042A0EF /* AudioToolbox.framework */,
+				907103B01BD080340042A0EF /* Bolts.framework */,
+				907103B11BD080340042A0EF /* Parse.framework */,
+			);
+			name = FRAMEWORKS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +353,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9071037D1BD07BA00042A0EF /* ViewController.swift in Sources */,
+				90BB022C1BE1A5AA00A1B8CE /* MainMenuViewController.swift in Sources */,
+				90BB02341BE2D0FD00A1B8CE /* PlayGameViewController.swift in Sources */,
+				90BB023C1BE3382300A1B8CE /* Functions.swift in Sources */,
 				9071037B1BD07BA00042A0EF /* AppDelegate.swift in Sources */,
+				90BB022A1BE1886200A1B8CE /* SignUpTableViewController.swift in Sources */,
+				90BB02241BE1815A00A1B8CE /* HomeViewController.swift in Sources */,
+				90BB02301BE2CFFD00A1B8CE /* EditProfileTableViewController.swift in Sources */,
+				90BB02361BE32C9000A1B8CE /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +502,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YPWP",
+				);
 				INFOPLIST_FILE = YPWP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehlien.YPWP;
@@ -409,6 +517,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YPWP",
+				);
 				INFOPLIST_FILE = YPWP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ehlien.YPWP;
@@ -483,6 +595,7 @@
 				907103A11BD07BA00042A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907103A21BD07BA00042A0EF /* Build configuration list for PBXNativeTarget "YPWPTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +604,7 @@
 				907103A41BD07BA00042A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907103A51BD07BA00042A0EF /* Build configuration list for PBXNativeTarget "YPWPUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +613,7 @@
 				907103A71BD07BA00042A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
